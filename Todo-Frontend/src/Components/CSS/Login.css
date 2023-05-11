@@ -1,0 +1,52 @@
+.Login_Components {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.Login_form {
+  border-radius: 0px 10px 50px 0px;
+
+  /* background: linear-gradient(145deg, #ffffff, #e0e0e0); */
+  background: linear-gradient(145deg, #08161b29, #3c889d29);
+  /* background-color: #0f6b8429; */
+  padding: 40px 40px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.login_Header {
+}
+.login_Header_img {
+  border-radius: 50px 0px 0px 10px;
+
+  background-color: rgb(255, 255, 255) !important;
+  overflow: hidden !important;
+}
+.login_img {
+  object-fit: fill !important;
+  object-position: center;
+  width: 360px !important;
+}
+
+@media (max-width: 616px) {
+  .Login_Components {
+    flex-direction: column;
+  }
+  .Login_form {
+    border-radius: 0px 0px 50px 50px;
+  }
+  .login_Header_img {
+    border-radius: 50px 50px 0px 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .Login_Components {
+    /* max-width: 90% !important; */
+    padding: 40px !important;
+  }
+}
