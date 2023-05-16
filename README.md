@@ -87,17 +87,6 @@ https://documenter.getpostman.com/view/21096361/2s93ebUX15
 - Exceptions Layer
 
  
-
-
-## Layers used
-- Controller layer
-- Service layer
-- Security Config Layer
-- Repository layer
-- Advice layer
-- Exceptions Layer
-
-
 # How to make it work locally?
 - Run xampp: start Apache and MySQL Services
 - Open backend project in Intellij and start the server
