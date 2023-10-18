@@ -18,7 +18,7 @@ https://3x-todo.netlify.app/
 
 
 
-# *Fronend*
+# *Frontend*
 ***Friendly UI frontend designed to ease the use for users. Highly responsive in all kind width of monitors, phones and tablets***
 
 
